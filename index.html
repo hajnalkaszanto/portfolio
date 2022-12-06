@@ -13,7 +13,7 @@
         <ul>
             <li><a href="#">Főoldal</a></li>
             <li><a href="#Bemutatkozás">Bemutatkozás</a></li>
-            <li><a href="#Szakmai ismeretek">Szakmai ismeretek</a></li>
+            <li><a href="#Szakmai-ismeretek">Szakmai ismeretek</a></li>
             <li><a href="#Portfólió">Portfólió</a></li>
             <li><a href="#Kapcsolat">Kapcsolat</a></li>
         </ul>
@@ -32,7 +32,7 @@
         </h3>
     </section>
 
-    <section id="Szakmai ismeretek">
+    <section id="Szakmai-ismeretek">
         <h2>Szakmai ismeretek</h2>
         <nav>
             <ul>
@@ -61,29 +61,35 @@
         <h2>Kapcsolat</h2>
         <form action="https://formspree.io/f/xlevqbgp" method="post">
            
-<section>
+<section id="kapcsolat-név">
+    <h3>
     <label>
     Név: 
     <input type="text" name="név" placeholder="Név" required>
 </label>
+</h3>
 </section>
 
-<section>
+<section id="kapcsolat-email">
+    <h3>
     <label>
-    E-mail: 
-    <input type="text" name="e-mail" placeholder="E-mail" required>
-</label>
+        E-mail: 
+        <input type="text" name="e-mail" placeholder="E-mail" required>
+    </label>
+</h3>
 </section>
 
-<section>
+<section id="kapcsolat-üzenet">
+    <h3>
 <label>
     Üzenet:
    <textarea name="üzenet" id="message" cols="30" rows="10" required></textarea>
 </label>
+</h3>
 </section>
 
 <section>
-    <input type="submit" name="küldés" placeholder="Küldés">
+    <input type="submit" name="küldés">
 </section>
 
         </form>
@@ -96,7 +102,11 @@
             <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-logo">
         </a>
     </section>
-    <section>Copyright © 2022 Szántó Hajnalka</section>
+    
+    <section>
+        <h3>Copyright © 2022 Szántó Hajnalka
+        </h3>
+        </section>
  </footer>
 
 </body>
