@@ -1,0 +1,142 @@
+/*Alap*/
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+  }
+
+  :root {
+    --darkmode: rgb(0, 0, 0);
+    --lightmode: rgb(211, 211, 211);
+    --middlemode: cyan;
+
+  }
+  
+  body {
+    background-color: var(--darkmode);
+    color: var(--lightmode);
+  }
+  
+  /*Header*/
+  
+  .header-navigation {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: var(--middlemode);
+    text-align: center;
+    padding: 0px;
+  }
+  
+  .divnav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    margin: 10px;
+    /*transform: translate(20px);*/
+  }
+  
+  .nav-list-item {
+    padding: 2px;
+  }
+  
+  .logo-menu {
+    display: flex;
+    padding: 2px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  /*Main*/
+  
+  main {
+    padding-top: 70px;
+  }
+  
+  /*Szakmai ismeretek */
+  
+  .szakmai-ismeretek-cim {
+    text-align: center;
+    font-size: 42px;
+    color: lightgray;
+  }
+  
+  .skill-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 90%;
+    margin: 0 25px 0;
+    padding: 7px;
+    text-align: center;
+    font-size: 38px;
+    color: lightgray;
+  }
+  
+  .img {
+    height: 90%;
+    width: 90%;
+    padding: 5px;
+    border: 2px solid lightgray;
+    background-color: lightgray;
+    border-radius: 140px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*Potrolio munkaim*/
+  
+  .portfolio-cim {
+    text-align: center;
+    font-size: 42px;
+    color: lightgray;
+  }
+  
+  .portfolio-container {
+    display: grid;
+    grid-template-areas:
+      "portfolio-elem-1 portfolio-elem-1 portfolio-elem2"
+      "portfolio-elem-3 portfolio-elem-5 portfolio-elem-5"
+      "portfolio-elem-4 portfolio-elem-5 portfolio-elem-5";
+  }
+  
+  .portfolio-container-elem {
+  }
+  
+  .portiolio-munka {
+  }
+  
+  .portfolio-elem {
+  }
+  
+  .portfolio-kep {
+  }
+  
+  .portfolio-leiras {
+    font-size: 12px;
+  }
+  

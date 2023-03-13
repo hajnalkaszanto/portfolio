@@ -1,113 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Szántó Hajnalka Portfólió oldal</title>
-</head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-<body>
-<header>
-    <nav>
-        <ul>
-            <li><a href="#">Főoldal</a></li>
-            <li><a href="#Bemutatkozás">Bemutatkozás</a></li>
-            <li><a href="#Szakmai-ismeretek">Szakmai ismeretek</a></li>
-            <li><a href="#Portfólió">Portfólió</a></li>
-            <li><a href="#Kapcsolat">Kapcsolat</a></li>
-        </ul>
-    </nav>
-</header>
+  <body>
+    <header>
+      <nav class="header-navigation">
+        <a href="#" class="logo-menu">SZH</a>
+        <div class="divnav">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="#">Főoldal</a>
+            </li>
 
-<main>
-   <section>
-        <h1>Szántó Hajnalka Junior frontend fejlesztő</h1>
-    </section>
+            <li class="nav-list-item">
+              <a href="#Bemutatkozás">Bemutatkozás</a>
+            </li>
 
-    <section id="Bemutatkozás">
+            <li class="nav-list-item">
+              <a href="#Szakmai-ismeretek">Szakmai ismeretek</a>
+            </li>
+
+            <li class="nav-list-item">
+                <a href="#Portfólió">Portfólió</a>
+            </li>
+            <li class="nav-list-item">
+                <a href="#Kapcsolat">Kapcsolat</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>Szántó Hajnalka Frontend fejlesztő</h1>
+      </section>
+
+      <section id="Bemutatkozás">
         <h2>Bemutatkozás</h2>
-        <h3>Szántó Hajnalka vagyok, junior frontend fejlesztő. 11 év mérnöki munka után döntöttem a munkahelyváltás mellett. 
-            Újabb és újabb kihívásokra vágytam, ezért kezdtem bele újra a tanulásba.
+        <h3>
+          Szántó Hajnalka vagyok, Frontend fejlesztő. 11 év mérnöki munka után
+          döntöttem a munkahelyváltás mellett. Újabb és újabb kihívásokra
+          vágytam, ezért kezdtem bele ismét a tanulásba.
         </h3>
-    </section>
+      </section>
 
-    <section id="Szakmai-ismeretek">
-        <h2>Szakmai ismeretek</h2>
-        <nav>
-            <ul>
-                <li><h3>HTML</h3></li>
-                <li><h3>CSS</h3></li>
-                <li><h3>Javascript</h3></li>
-                <li><h3>React</h3></li>
-                <li><h3>Python</h3></li>
-            </ul>
+      <section id="szakmai-ismeretek">
+        <h2 class="szakmai-ismeretek-cim">Szakmai ismeretek</h2>
+        <nav class="skill-list">
+          <div class="skill">
+            <h3 class="logo">HTML</h3>
+            <div class="img">
+              <img src="./img/HTML5-logo.png" alt="HTML logo" height="150px" />
+            </div>
+          </div>
+
+          <div class="skill">
+            <h3 class="logo">CSS</h3>
+            <div class="img">
+              <img src="./img/CSS3-logo.png" alt="CSS logo" height="150px" />
+            </div>
+          </div>
+
+          <div class="skill">
+            <h3 class="logo">Javascript</h3>
+            <div class="img">
+              <img
+                src="./img/JS-logo.png"
+                alt="Javascript logo"
+                height="150px"
+              />
+            </div>
+          </div>
+
+          <div class="skill">
+            <h3 class="logo">React</h3>
+            <div class="img">
+              <img src="./img/React-logo.png" alt="React logo" height="150px" />
+            </div>
+          </div>
+
+          <div class="skill">
+            <h3 class="logo">Python</h3>
+            <div class="img">
+              <img
+                src="./img/Python-logo.png"
+                alt="Python logo"
+                height="150px"
+              />
+            </div>
+          </div>
+
+          <div class="skill">
+            <h3 class="logo">Node.js</h3>
+            <div class="img">
+              <img
+                src="./img/Nodejs-logo.png"
+                alt="Node.js logo"
+                height="150px"
+              />
+            </div>
+          </div>
         </nav>
-    </section>
+      </section>
 
-    <section id="Portfólió">
-        <h2>Portfólió</h2>
-        <ul>
-        <li><h3>Portfólió munka 1</h3></li>
-        <li><h3>Portfólió munka 2</h3></li>
-        <li><h3>Portfólió munka 3</h3></li>
-        <li><h3>Portfólió munka 4</h3></li>
-        </ul>
-    </section>
+      <section id="Portfólió munkáim">
+        <h2 class="portfolio-cim">Portfólió munkáim</h2>
+        <div class="portfolio-container">
+          <div class="portfolio-container-elem">
+            <h3 class="portfolio-munka">Weboldal</h3>
+            <div class="portfolio-elem">
+              <div class="portfolio-kep">
+                <img
+                  src="./img/weboldal-kep.png"
+                  alt="Weboldal Kép"
+                  width="230px"
+                />
+              </div>
+              <h4 class="porfolio-leiras">
+                Felhasznált technológiák: HTML, CSS, SASS, BOOSTRAP
+              </h4>
+            </div>
+          </div>
 
-    
+          <div class="portfolio-container-elem">
+            <h3 class="portfolio-munka">Javascript API alkalmazás</h3>
+            <div class="portfolio-elem">
+              <div class="portfolio-kep">
+                <img
+                  src="./img/js-api.png"
+                  alt="Javascript API Kép"
+                  width="230px"
+                />
+              </div>
+              <h4 class="porfolio-leiras">
+                Felhasznált technológiák: Javascript
+              </h4>
+            </div>
+          </div>
 
-    <section id="Kapcsolat">
+          <div class="portfolio-container-elem">
+            <h3 class="portfolio-munka">Pong játék</h3>
+            <div class="portfolio-elem">
+              <div class="portfolio-kep">
+                <img
+                  src="./img/pong.png"
+                  alt="Javascript API Kép"
+                  width="230px"
+                />
+              </div>
+              <h4 class="porfolio-leiras">
+                Felhasznált technológiák: Javascript
+              </h4>
+            </div>
+          </div>
+
+          <div class="portfolio-container-elem">
+            <h3 class="portfolio-munka">React alkalmazás</h3>
+            <div class="portfolio-elem">
+              <div class="portfolio-kep">
+                <img src="./img/react.png" alt="React Kép" width="230px" />
+              </div>
+              <h4 class="porfolio-leiras">
+                Felhasznált technológiák: React
+              </h4>
+            </div>
+          </div>
+
+          <div class="portfolio-container-elem">
+            <h3 class="portfolio-munka">MERN projekt</h3>
+            <div class="portfolio-elem">
+              <div class="portfolio-kep">
+                <img src="./img/node-js.png" alt="Node-JS Kép" width="230px" />
+              </div>
+              <h4 class="porfolio-leiras">
+                Felhasznált technológiák: MongoDB, Express, React, Node.js
+              </h4>
+            </div>
+          </div>
+
+          <div class="portfolio-container-elem">
+            <h3 class="portfolio-munka">Nagy projekt</h3>
+            <div class="portfolio-elem">
+              <div class="portfolio-kep">
+                <img
+                  src="./img/szamitogep.png"
+                  alt="Számítógép Kép"
+                  width="230px"
+                />
+              </div>
+              <h4 class="porfolio-leiras">
+                Felhasznált technológiák: Python, Django, Javascript, HTML, SASS
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Kapcsolat">
         <h2>Kapcsolat</h2>
         <form action="https://formspree.io/f/xlevqbgp" method="post">
-           
-<section id="kapcsolat-név">
-    <h3>
-    <label>
-    Név: 
-    <input type="text" name="név" placeholder="Név" required>
-</label>
-</h3>
-</section>
+          <section id="kapcsolat-név">
+            <h3>
+              <label>
+                Név:
+                <input type="text" name="név" placeholder="Név" required />
+              </label>
+            </h3>
+          </section>
 
-<section id="kapcsolat-email">
-    <h3>
-    <label>
-        E-mail: 
-        <input type="text" name="e-mail" placeholder="E-mail" required>
-    </label>
-</h3>
-</section>
+          <section id="kapcsolat-email">
+            <h3>
+              <label>
+                E-mail:
+                <input
+                  type="text"
+                  name="e-mail"
+                  placeholder="E-mail"
+                  required
+                />
+              </label>
+            </h3>
+          </section>
 
-<section id="kapcsolat-üzenet">
-    <h3>
-<label>
-    Üzenet:
-   <textarea name="üzenet" id="message" cols="30" rows="10" required></textarea>
-</label>
-</h3>
-</section>
+          <section id="kapcsolat-üzenet">
+            <h3>
+              <label>
+                Üzenet:
+                <textarea
+                  name="üzenet"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  required
+                ></textarea>
+              </label>
+            </h3>
+          </section>
 
-<section>
-    <input type="submit" name="küldés">
-</section>
-
+          <section>
+            <input type="submit" name="küldés" />
+          </section>
         </form>
-    </section>
- </main>
+      </section>
+    </main>
 
- <footer>
-    <section>
+    <footer>
+      <section>
         <a href="https://github.com/hajnalkaszanto" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-logo">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            alt="github-logo"
+          />
         </a>
-    </section>
-    
-    <section>
-        <h3>Copyright © 2022 Szántó Hajnalka
-        </h3>
-        </section>
- </footer>
+      </section>
 
-</body>
+      <section>
+        <h3>Copyright © 2022 Szántó Hajnalka</h3>
+      </section>
+    </footer>
+  </body>
 </html>
